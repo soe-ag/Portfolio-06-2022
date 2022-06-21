@@ -53,15 +53,17 @@
     width: 65%;
     border-radius:25% 10%;
     margin-left: 80px;
+    /* padding: 15px 0; */
 }
 
 #aboutText{
     text-align: justify;
+    padding-top: 30px;
 }
 
-#none{
+/* #none{
     list-style-type: none;
-}
+} */
 
 /* services section css */
 
@@ -113,4 +115,32 @@
 #footer {
     background-color: black;
     text-align: center;
+}
+
+
+/* media query */
+@media only screen and (max-width: 768px){
+
+    .bgimage {
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:50vh;
+    }
+
+    .hero_title{
+        text-align: left;
+        position: relative;
+        font-size: 1rem;
+        margin-top: 130px;
+        
+
+    }
+
+    .hero_desc{
+        text-align: left;
+        position: relative;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
 }
