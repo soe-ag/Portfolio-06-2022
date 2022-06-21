@@ -124,8 +124,10 @@
     .bgimage {
     width: 100%;
     background-size:contain;
-    background-repeat: no-repeat;
-    height:50vh;
+    
+    height:100vh;
+    background: url('images/black.jpg');
+    
     }
 
     .hero_title{
