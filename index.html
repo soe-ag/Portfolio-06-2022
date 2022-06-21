@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <!-- <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/1b2acec67b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Soe's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#learning">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">SOE AUNG</h2>
+                <p class="hero_desc">Entry Level Frontend Developer</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/me.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p id="aboutText"> Enthusiastic in design and detailed-oriented graduate from Hokkaido University majored in engineering. 
+                        Interested in design, 3D modelling, cryptocurrency and technologies. Seeks to career change in web development field, 
+                        pursuing frontend development. Currently learning JavaScript, Node.js, React and skilled in basic HTML, CSS, JS and some frameworks. 
+                        Eager to start at entry level frontend developer position to help develop and implement internal and external websites to expand knowledge 
+                        and experiences.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Hokkaido University</li>
+                                <li>Myanmar Maritime University</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8">
+                            <ul id="none">
+                                <li>Master of Engineering: Transportation Engineering</li>
+                                <li>Bachelor of Engineering: Marine Engineering</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <ul>
+                                <li>CAE modeler at AIM Co.,LTD, Assigned at Subaru Techno Corporation Co.,Ltd</li>
+                                <li>Junior Engineer at Pacific International Lines Pte Ltd, Singapore</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="learning">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fa-brands fa-html5 servicesIcon"></i>
+                            <h4 class="card-title mt-3">HTML</h4>
+                            <!-- <p class="card-text mt-3">HTML elements</p>                            
+                            <p class="card-text mt-3">HTML attributes</p> -->
+                                <ul class="servicesList">
+                                    <li>Layout and Responsive</li>
+                                    <li>Elements, tag and attributes</li>
+                                    <li>Styles and formatting</li>
+                                    <li>Lists, table, form and input types</li>
+                                    <li>Headers, paragraphs, link and image</li>
+                                    <li>Class and id</li>
+                                </ul>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fa-brands fa-css3-alt servicesIcon"></i>
+                            <h4 class="card-title mt-3">CSS</h4>
+                            <ul class="servicesList">
+                                <li>Syntax and selectors</li>
+                                <li>Border, Margin and Padding</li>
+                                <li>Positioning</li>
+                                <li>Media query</li>
+                                <li>Pseudo-classes</li>
+                                <li>Grid and flex box</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fa-brands fa-js-square servicesIcon"></i>
+                            <h4 class="card-title mt-3">JavaScript</h4>
+                            <ul class="servicesList">
+                                <li>Types, values and variables</li>
+                                <li>Expressions and Operators</li>
+                                <li>Statements</li>
+                                <li>Objects, arrays and function</li>
+                                <li>Document Object Model (DOM)</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fa-brands fa-bootstrap servicesIcon"></i>
+                            <h4 class="card-title mt-3">Bootstrap</h4>
+                            <ul class="servicesList">
+                                <li>Grid, container and columns</li>
+                                <li>Forms and components</li>
+                                <li>Navigating bar</li>
+                                <li>Carousel</li>
+                                <!-- <li>Grid and flex box</li> -->
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body"> 
+                            <i class="fa-brands fa-node-js servicesIcon"></i>
+                            <h4 class="card-title mt-3">Node.js</h4>
+                            <ul class="servicesList">
+                                <li>NPM and modules</li>
+                                <li>Express.js</li>
+                                
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fa-brands fa-react servicesIcon"></i>
+                            <h4 class="card-title mt-3">React.js</h4>
+                            <ul class="servicesList">
+                                <li>JS expressions in JSX</li>
+                                <li>Rendering elements</li>
+                                <li>Components and props</li>
+                             
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/acme.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Page</h4>
+                            <p class="card-text">HTML - CSS</p>
+                            <div class="text-center">
+                                <a href="https://soe-ag.github.io/acme-webpage/" target="_blank" class="btn btn-success">Link</a>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/grid.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">CSS grid Web Page</h4>
+                            <p class="card-text">HTML - CSS</p>
+                            <div class="text-center">
+                                <a href="https://soe-ag.github.io/CSSgrid-page/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/tindog.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Page</h4>
+                            <p class="card-text">HTML - CSS - Bootstrap</p>
+                            <div class="text-center">
+                                <a href="https://soe-ag.github.io/TinDog-webpage/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/dice.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Dice Game</h4>
+                            <p class="card-text">HTML - CSS - JavaScript</p>
+                            <div class="text-center">
+                                <a href="https://soe-ag.github.io/Dice-game/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/drumkitweb.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Drum Kit</h4>
+                            <p class="card-text">HTML - CSS - JavaScript</p>
+                            <div class="text-center">
+                                <a href="https://soe-ag.github.io/Drum-kit/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/simongame.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Simon Game</h4>
+                            <p class="card-text">HTML - CSS - JavaScript - jQuery</p>
+                            <div class="text-center">
+                                <a href="https://soe-ag.github.io/Simon-game/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me (Sample)</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    
+                    <div style="max-width:100%;overflow:hidden;color:red;width:550px;height:400px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=3310812&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me </button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/soeag.m94/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/soeaung_14/?fbclid=IwAR3IcsNQjt8J_yQTALa-xE2vYHryVZKqDTdImI3DNBinYntqBpKz8U0PVjk" target="_blank"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

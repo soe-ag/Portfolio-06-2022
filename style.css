@@ -1,0 +1,116 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* ol {
+    margin: 0;
+    padding: 0;
+    } */
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/wp.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.5rem;
+}
+.hero_desc {
+    font-size: 1.5rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-left: 180px;
+    padding-bottom: 30px;
+}
+
+/* spacing on all sections */
+#about, #learning, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    margin-bottom: 15rem;
+}
+
+/* about section image css */
+/* #about{
+    margin-top: 20px;
+} */
+
+.imageAboutPage {
+    width: 65%;
+    border-radius:25% 10%;
+    margin-left: 80px;
+}
+
+#aboutText{
+    text-align: justify;
+}
+
+#none{
+    list-style-type: none;
+}
+
+/* services section css */
+
+#services{
+    margin-top: 30px;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.servicesList{
+    text-align: center;
+    list-style-type: none;
+    /* margin-left: 35px; */
+    margin-right: 30px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: white;
+}
+/* footer styling */
+#footer {
+    background-color: black;
+    text-align: center;
+}
